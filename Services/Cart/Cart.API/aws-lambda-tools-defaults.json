@@ -1,0 +1,15 @@
+{
+  "profile": "default",
+  "region": "ap-southeast-2",
+  "configuration": "Release",
+  "function-architecture": "x86_64",
+  "function-runtime": "dotnet8",
+  "function-memory-size": 256,
+  "function-timeout": 30,
+  "function-name": "cartapi",
+  "function-handler": "Cart.API",
+  "environment-variables": "\"ASPNETCORE_ENVIRONMENT\"=\"Development\";\"ConnectionStrings__CartDb\"=\"Host=ep-hidden-bush-a88dym8n-pooler.eastus2.azure.neon.tech; Database=cartdb; Username=neondb_owner; Password=npg_zBKNQeAM0X1E; SSL Mode=VerifyFull; Channel Binding=Require;Include Error Detail=true;\"",
+  "function-url": "enabled",
+  "function-url-auth-type": "none",
+  "function-role": "arn:aws:iam::478715309921:role/api-lambda-deploy"
+}
